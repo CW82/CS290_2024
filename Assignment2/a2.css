@@ -1,18 +1,25 @@
+/* Class Selector */
 .SignIn {
+	/* Font Shorthand, font weight, size, style, variant */
 	font: bold 14px/1.5 Arial, Helvetica, sans-serif;
-	position: absolute;
-	top: 13%;
-	left: 30%;
+	position: fixed;
+	top: 10vh;
+	left: 28vw;
+	/* top: 13%; */
+	/* left: 28%;  */
 	z-index: 1;
+	/* text decoration, just for this assignment, after this im getting rid of it lol */
+	text-decoration: underline;
 	color: white;
 }
 
-.empn input{
-	width: 44%;
+/* ID Selector */
+#empn input{
+	width: 275px;
 	height: 35px;
 	position: absolute;
 	top: 26%;
-	left: 30%;
+	left: 28%;
 	border-radius: 5px;
 	border: 2px solid rgb(63, 63, 63);
 	z-index: 2;
@@ -20,11 +27,11 @@
 }
 
 .password input{
-	width: 44%;
+	width: 275px;
 	height: 35px;
 	position: absolute;
 	top: 36%;
-	left: 30%;
+	left: 28%;
 	border-radius: 5px;
 	border: 2px solid rgb(63, 63, 63);
 	z-index: 2;
@@ -33,28 +40,44 @@
 
 .button {
 	color: white;
-	width: 44%;
+	width: 275px;
 	height: 35px;
 	position: absolute;
 	top: 48%;
-	left: 30%;
+	left: 28%;
 	border-radius: 5px;
 	z-index: 3;
 	background-color: rgb(198, 22, 22);
+	/* Color one way */
+}
+
+/* ID selector again */
+#text {
+	position: absolute;
+	top: 56%;
+	left: 28%;
+	z-index: 4;
+	border-style: dotted;
+	border-width: 2px;
+	padding: 5px 5px 0px 0px; 
+	margin: 0px 0px 5px 5px;
+	color: white;
 }
 
 .bgrectangle {
 	width: 350px;
 	height: 500px;
-	/* opacity: 0.8;	 */
+	/* opacity: 0.8; Another way I did opacity before leaning the way I chose to go with*/
 	z-index: 0;
 	background-color: #000000d0;
+	/* Color another way with opacity */
 	/* max-width: 350px;  */
   }
 
 body {
 	height: 100vh;
 	display: flex;
+	/* Not quite text align, but there is align here lol */
 	align-items: center;
 	justify-content: center;
 	margin: 0;
