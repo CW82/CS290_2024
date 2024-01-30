@@ -1,5 +1,5 @@
-/* Class Selector */
-.SignIn {
+/*Id Selectors */
+#SignIn {
 	/* Font Shorthand, font weight, size, style, variant */
 	font: bold 14px/1.5 Arial, Helvetica, sans-serif;
 	position: fixed;
@@ -9,50 +9,70 @@
 	/* left: 28%;  */
 	z-index: 1;
 	/* text decoration, just for this assignment, after this im getting rid of it lol */
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	color: white;
 }
 
-/* ID Selector */
-#empn input{
+#inputs input{
 	width: 275px;
 	height: 35px;
-	position: absolute;
-	top: 26%;
-	left: 28%;
+	position: fixed;
 	border-radius: 5px;
-	border: 2px solid rgb(63, 63, 63);
+	border: 2px solid rgb(63, 63, 64);
 	z-index: 2;
-	background-color: rgb(63, 63, 63);
+	background-color: rgb(63, 63, 64);
 }
 
-.password input{
-	width: 275px;
-	height: 35px;
-	position: absolute;
-	top: 36%;
-	left: 28%;
-	border-radius: 5px;
-	border: 2px solid rgb(63, 63, 63);
-	z-index: 2;
-	background-color: rgb(63, 63, 63);
+/* Class selectors */
+#bgrectangle {
+	width: 350px;
+	height: 500px;
+	/* position: fixed;  */
+	/* opacity: 0.8; Another way I did opacity before leaning the way I chose to go with*/
+	z-index: 0;
+	background-color: #000000d0;
+	/* Color another way, with opacity this time */
+	/* max-width: 350px;  */
+  }
+
+.empn {
+	/* top: 26%;
+	left: 28%; */
+	top: 20vh;
+	left: 28vw;
+}
+
+.password {
+	/* top: 36%;
+	left: 28%; */
+	top: 30vh;
+	left: 28vw;
 }
 
 .button {
 	color: white;
-	width: 275px;
-	height: 35px;
-	position: absolute;
-	top: 48%;
-	left: 28%;
+	width: 285px; 
+	height: 35px; 
+	position: fixed;
+	/* top: 48%;
+	left: 28%; */
+	top: 40vh;
+	left: 28vw;
 	border-radius: 5px;
-	z-index: 3;
+	/* z-index: 3; */
 	background-color: rgb(198, 22, 22);
 	/* Color one way */
 }
 
-/* ID selector again */
-#text {
+.check {
+	/* margin: 1px 1px 1px 1px; */
+	top: 55%;
+	left: 28%;
+	position: fixed;
+	z-index: 2;
+} 
+
+/* #text { 
 	position: absolute;
 	top: 56%;
 	left: 28%;
@@ -62,19 +82,10 @@
 	padding: 5px 5px 0px 0px; 
 	margin: 0px 0px 5px 5px;
 	color: white;
-}
+}  This was for assignment 2, not needed anymore*/
 
-.bgrectangle {
-	width: 350px;
-	height: 500px;
-	/* opacity: 0.8; Another way I did opacity before leaning the way I chose to go with*/
-	z-index: 0;
-	background-color: #000000d0;
-	/* Color another way, with opacity this time */
-	/* max-width: 350px;  */
-  }
-
-body {
+/* Picture background */
+ body { 
 	height: 100vh;
 	display: flex;
 	/* Not quite text align, but there is align here lol */
