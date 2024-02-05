@@ -13,8 +13,10 @@ body {
 }
 
 #bgrectangle {
+  /* dimentions of the background rectangle */
   width: 350px;
   height: 500px;
+  /* centers my background rectangle */
   margin: auto; 
   background-color: rgba(0, 0, 0, 0.750);
 }
@@ -30,6 +32,7 @@ body {
   color: white;
 }
 
+/* general decor for the input boxes (empn and password) */
 #inputs input{
 	width: 275px;
 	height: 35px;
@@ -39,12 +42,14 @@ body {
 }
 
 #savedlogin {
+  /* margin: 0; */
   cursor: pointer;
   position: relative;
   top: 12vh;
   left: 5.5vh;
 }
 
+/* styling for the remember me box lable */
 #savedlogin label {
   font: Arial, Helvetica, sans-serif;;
   color: white;
@@ -57,10 +62,19 @@ body {
   left: 6vh;
 }
 
+/* makes text turn white when u click on input box to type things in so u can see better */
+.empn:focus {
+  color: white;
+}
+
 .password {
   position: relative;
   top: 5vh;
   left: 6vh;
+}
+
+.password:focus {
+  color: white;
 }
 
 .pressme {
@@ -69,8 +83,6 @@ body {
   position: relative;
   top: 10vh;
   left: 6vh;
-	/* top: 12vh;
-	left: 7vw; */
 	border-radius: 5px;
   color: white;
 	background-color: rgb(198, 22, 22);
@@ -87,7 +99,3 @@ body {
 .helllp:hover {
   color: rgb(191, 13, 13);
 }
-
-/* .check {
-  font: white;
-} */
