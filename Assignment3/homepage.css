@@ -1,4 +1,4 @@
-body {  
+body { 
   box-sizing: border-box;
   margin: 0;
   height: 100vh;
@@ -13,18 +13,17 @@ body {
 }
 
 .navbarstyle {
-  /* background stuff for the nav bar */
-  background-size: cover;
-  background-image: url("stars.gif");
-  /* sets the links a little lower, controls up and down */
-  margin-top: 20px;
+  /* background color for the nav bar */
+  background-color: rgba(17, 5, 26, 0.644);
+  display: flex; 
+  /* align-items: center;  */
+  /* justify-content: space-between;  */
   font: bold 15px/1.5 Arial, Helvetica, sans-serif;
 }
 
 .navbarstyle a {
   float: left;
-  display: flex;
-  color: #ffffff;
+  color: #e4e3e3;
   text-decoration: none;
   /* spacing, left and right */
   padding: 15px;
@@ -36,18 +35,31 @@ body {
 
 .title {
   font-size: 35px;
+  text-shadow: 5px 4px rgb(107, 58, 142);
   /* lines up the title with the rest of the links since they aren't lined up for some reason without this?? */
   margin-top: -13px;
-  text-shadow: 6px 5px black;
 } 
 
 .navbarstyle .fa {
   display: none;
   /* color: white;
-  float: right;
   padding-right: 10px;
-  padding-top: 18px; */
+  padding-top: 18px;  */
 }
 
+@media screen and (max-width: 600px) {
+  .navbarstyle a:not(.title) {display: none;}
 
+  .navbarstyle .fa {
+    float: right;
+    display: block;
+    color: white;
+    padding-top: 18px;
+  }
 
+  .navbarstyle .fa:hover {
+    cursor: pointer;
+    background-color:rgb(56, 39, 78);
+  }
+
+  }

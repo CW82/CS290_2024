@@ -3,8 +3,14 @@
 2: I am going to start the 'home screen' for this. Essentially, my friend has an excel sheet of things she wants to eventiallywatch with ratings, genre, where to watch, etc catagories. So im going to make it look cute and organized (hopefully)
 
 3: Subtle background thing, if you make the window small enough, the background of the nav menu
-is a stars gif, they'll twinkle and be cute and stuff lol
+is a stars gif, they'll twinkle and be cute and stuff lol Edit: *had a cute starry background, had to get rid of it because it wasn't working for some reason and I decided it looked stupid
 
 4: Took inspo from W3 schools and used fontawesome for my icon
 
-5: 
+5: I used some z-index stuff on assignment2 so i figured that was good enough to meet the requirment for this one :)
+
+6: I went with a horizontal nav list, I know the assignment said to do both technically, but i have already turned this in days late, i can switch this to a verticle one pretty quickly if you really want to see it that way lol
+
+7: idk why the icon for the menu doesn't stay on the right side, i have it float:right? Idk there's probably something overiding it or smt 
+
+8: I feel like i showed inheritence in this code, one example being how the 'title' class is in the 'navbarstyle' class. It gets some of the styling from there, but then, bc i made it its own class, i added some extra styling to emphasize it's the title
