@@ -62,7 +62,7 @@ body {
   left: 6vh;
 }
 
-/* makes text turn white when u click on input box to type things in so u can see better */
+/* makes text turn white when u click on input box to type things in so u can see */
 .empn:focus {
   color: white;
 }
@@ -99,3 +99,4 @@ body {
 .helllp:hover {
   color: rgb(191, 13, 13);
 }
+

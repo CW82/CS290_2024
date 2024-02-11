@@ -1,0 +1,53 @@
+body {  
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  /* overflow: hidden; Hides scrollbar, but has no functionality */ 
+  /* Ombre background */
+  background-image: linear-gradient(rgb(49, 34, 68), rgb(62, 31, 71), rgb(77, 25, 77));
+}
+
+/* Hidden scrollbar, functional */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.navbarstyle {
+  /* background stuff for the nav bar */
+  background-size: cover;
+  background-image: url("stars.gif");
+  /* sets the links a little lower, controls up and down */
+  margin-top: 20px;
+  font: bold 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+.navbarstyle a {
+  float: left;
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+  /* spacing, left and right */
+  padding: 15px;
+}
+
+.navbarstyle a:hover {
+  background-color: rgb(56, 39, 78);
+}
+
+.title {
+  font-size: 35px;
+  /* lines up the title with the rest of the links since they aren't lined up for some reason without this?? */
+  margin-top: -13px;
+  text-shadow: 6px 5px black;
+} 
+
+.navbarstyle .fa {
+  display: none;
+  /* color: white;
+  float: right;
+  padding-right: 10px;
+  padding-top: 18px; */
+}
+
+
+
