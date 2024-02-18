@@ -14,3 +14,6 @@ is a stars gif, they'll twinkle and be cute and stuff lol Edit: *had a cute star
 7: idk why the icon for the menu doesn't stay on the right side, i have it float:right? Idk there's probably something overiding it or smt 
 
 8: I feel like i showed inheritence in this code, one example being how the 'title' class is in the 'navbarstyle' class. It gets some of the styling from there, but then, bc i made it its own class, i added some extra styling to emphasize it's the title
+
+9: idk if it technically counts as 'fluid and responsive layout' but the hompage does technically adjust to the pixel size of the screen when it gets smaller. The nav bar at the top shrinks into the hamburger menu. IK the exmaple you used in class was the columns going from next to eachother down to just one dpending on the size of the screen, but as of rn i haven't done that lol
+

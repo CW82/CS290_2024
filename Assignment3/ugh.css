@@ -3,7 +3,7 @@ body {
   /* No extra spacing around the bgimg */
   margin: 0; 
   padding: 0; 
-  background-image: url('netflix.webp');
+  background-image: url('Pictures/netflix.webp');
   /* cover scales img to cover entire container while keeping its aspect raito */
   background-size: cover;
   background-position: center; 
