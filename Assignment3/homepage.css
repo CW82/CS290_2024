@@ -16,52 +16,16 @@ body {
   /* background color for the nav bar */
   background-color: rgba(17, 5, 26, 0.644);
   display: flex; 
-  /* align-items: center;  */
-  /* justify-content: space-between;  */
   font: bold 15px/1.5 Arial, Helvetica, sans-serif;
 }
 
 .navbarstyle a {
   float: left;
+  display: block;
   color: #e4e3e3;
   text-decoration: none;
   /* spacing, left and right */
-  padding: 15px;
-}
-
-/* There is prolly a much better, less line/space way to do this i just didn't figure it out lmao */
-main {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 10px;
-}
-
-#section1 {
-  flex: 1;
-  margin: 10px;
-  padding: 20px;
-  background: #2d163d;
-  box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
-}
-
-#section2 {
-  flex: 1;
-  margin: 10px;
-  padding: 20px;
-  background: #2d163d;
-  box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
-}
-
-#section3 {
-  flex: 1;
-  margin: 10px;
-  padding: 20px;
-  background: #2d163d;
-  box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
-}
-
-input[type = "search"] {
-  padding: 10px;
+  padding: 15px 16px;
 }
 
 .navbarstyle a:hover {
@@ -82,29 +46,37 @@ input[type = "search"] {
   padding-top: 18px;  */
 }
 
-@media screen and (max-width: 600px) {
-  .navbarstyle a:not(.title) {display: none;}
+/* .navbarstyle .lookup {
+  float: right;
+} */
 
-  .navbarstyle .fa {
-    float: right;
-    display: block;
-    color: white;
-    padding-top: 18px;
-  }
+.navbarstyle input[type="text"] {
+  margin-top: 17px;
+  border-radius: 5px;
+	border: 2px solid rgb(0, 0, 0);
+  background-color: #dbdbdb;
+}
 
-  .navbarstyle .fa:hover {
-    cursor: pointer;
-    background-color:rgb(56, 39, 78);
-  }
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
 
-  }
+#section {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background: #2d163d;
+  box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
+}
 
-  .containers {
-    color: #e4e3e3;
-    font: bold 15px/1.5 Arial, Helvetica, sans-serif;
-    padding-left: 10px;
-    margin-top: 10px;
-  }
+.containers {
+  color: #e4e3e3;
+  font: bold 15px/1.5 Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  margin-top: 10px;
+}
 
   /* .horzscroll {
    background-color: blue;
@@ -116,10 +88,28 @@ input[type = "search"] {
     display: block;
   } */
 
-  .end p{ 
-    text-align: center;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  } 
+.end p{ 
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+} 
+
+  @media screen and (max-width: 600px) {
+
+    .navbarstyle a:not(.title) {display: none;}
+
+    .navbarstyle .fa {
+      float: right;
+      display: block;
+      color: white;
+      padding-top: 20px;
+    }
+
+    .navbarstyle .fa:hover {
+      cursor: pointer;
+      background-color:rgb(56, 39, 78);
+    }
+
+  }
