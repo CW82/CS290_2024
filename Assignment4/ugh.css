@@ -90,6 +90,7 @@ body {
 
 .helllp {
   position: relative;
+  transition: transform 0.2;
   top: 0vh;
   right: -16vh;
   text-decoration: none;

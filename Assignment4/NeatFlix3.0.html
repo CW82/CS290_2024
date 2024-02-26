@@ -2,6 +2,7 @@
 <html lang = "en">
 <head>
   <title>NeatFlix3.0</title>
+  <link rel="icon" type="image/x-icon" href="Pictures/faviconN.png">
   <meta charset = "UTF-8">
   <meta name = "keywords" content = "HTML">
   <meta name = "author" content = "Crystal Wolf">
@@ -18,12 +19,11 @@
     </div>
 
     <div id = "inputs">
-      <input class = "empn" type = "text" placeholder = "Email or phone number">
-      <input class = "password" type = "password" placeholder = "Password">
-    </div>
+      <input class = "empn" type = "text" placeholder = "Email or phone number" value = "">
+      <input class = "password" type = "password" placeholder = "Password" value = "">
 
-    <div id = "button">
-      <button class = "pressme" role = "button" >Sign In</button>
+      <button id = "signinbutton" class = "pressme" role = "button" >Sign In</button>
+
     </div>
 
     <div id = "savedlogin">
@@ -33,6 +33,8 @@
     </div>
 
   </div>
+
+  <script src = "NeatFlixJS.js"></script>
 
 </body>
 </html>

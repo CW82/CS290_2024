@@ -1,5 +1,20 @@
-1: Input, output, variable (few different datatypes, number, string, boolean, couple of objs), commone errors and how to possibly avoid, conditionals, repitition, arrays, functions, demonstrait scope, objects, events
+1: Input, output, variable (few different datatypes, number, string, boolean, couple of objs), common errors and how to possibly avoid, conditionals, repitition, arrays, functions, demonstrait scope, objects, events
 
-2:
+2: To show input and output I want to have some test email/password and when you press 'sign in' it take you to the 'welcome' page
 
-3:
+3: For events, I want the 'Need Help' button to run away from the cursor because i think that will be funny and because i haven't done anything for that page lmao
+
+4: Common errors in javascript include not spelling things right, missing a (){}[]; , forgetting 'let' 'var', not making something global and then trying to use it, using the wrong = == ===, etc. How to avoid these? Honestly, what I did was accidently do these errors, get mad because it's not working, look at the console, forget what something means, use Google, then fix it. Ig i could've gone slower/been more careful when i was coding it, but eh
+
+5: Links I used to get this working(?)
+ - https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+ - https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage
+ - https://www.w3schools.com/jsref/event_onmouseover.asp
+ - https://www.w3schools.com/html/html_favicon.asp
+ - https://www.w3schools.com/jsref/met_document_queryselector.asp
+ - https://www.w3schools.com/js/js_if_else.asp
+ - 
+ - 
+ - 
+ - 
+ - I used ChatGPT a little bit and I had it explain some of the things from those links in more simple terms (brain smooth X﹏X)
