@@ -1,5 +1,7 @@
 //function called 'signing in', no parameters
 function signingin() {
+	//for me to make sure the button was actually doing smt when i pressed it (it wasn't at first lol)
+	console.log("Button Pressed")
 	// gets the #inputs id with text type and then gets the value that was entered, same w/password
     const email = document.querySelector("#inputs input[type='text']").value;
     const password = document.querySelector("#inputs input[type='password']").value;
@@ -25,3 +27,6 @@ windows.location is for getting the current adress of the page and then the .hre
 returns that adress, but i gave it the value of the address of 'welcome.html' so it
 basically changes the current address to the one I want it to go to when u essentially 
 'login'. There was probably a better way to do it, I just didn't figure it out lol*/
+
+/* Note for me: The 'const email and password' are 'locally scoped' because they can 
+only be used inside that function.*/

@@ -6,11 +6,10 @@
   <meta charset = "UTF-8">
   <meta name = "keywords" content = "HTML">
   <meta name = "author" content = "Crystal Wolf">
-  <meta name = "desc" content = "Assignment 3: More HTML with CSS">
+  <meta name = "desc" content = "Assignment 4: JavaScript">
   <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-  <link rel = "stylesheet" href = "homepage.css">
+  <link rel = "stylesheet" href = "welcomeCSS.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script>src = "homeage.js"</script>
 </head>
 <body>
 
@@ -18,7 +17,7 @@
     <nav> 
       <input class = "lookup" type = "text" placeholder = "Search">
 
-      <i class = "fa fa-bars fa-lg"></i>
+      <i class = "fa fa-bars fa-lg" id = "hambmenuicon"></i>
       <i class="fa-solid fa-magnifying-glass"></i>
 
       <a class = "title" href = "#NeatFlix">NEATFLIX</a>
@@ -27,25 +26,35 @@
       <a href = "#Books">Books</a>
       <a href = "#Music">Music</a>
     </nav>
+
   </div>
 
   <div class = "containers">
 
     <main>
-      <div id = "section">
-      <h1>Section 1</h1>
-      <p>This is a container</p>
+    <div id = "section">
+      <h1 id = "catags">Watch List</h1>
+      <button id ="add" role = "button">Add</button>
+    </div>  
+
+    <div id = "section">
+      <h1 id = "catags">Currently Watching</h1>
+      <button id ="add" role = "button">Add</button>
     </div>
 
     <div id = "section">
-      <h1>Section 2</h1>
-      <p>This is a container blah blah blah</p>
+      <h1 id = "catags">Not Finishing</h1>
+      <button id ="add" role = "button">Add</button>
     </div>
 
-    <div id = "section">
-      <h1>Section 3</h1>
-      <p>This is a container rawr XD</p>
+     <div id = "section">
+      <h1 id = "catags">Finished</h1>
+      <button id ="add" role = "button">Add</button>
+      <ul>
+        <li>Yuh</li>
+      </ul>
     </div>
+    
     </main>
 
     <footer class = "end">
@@ -53,6 +62,8 @@
     </footer>
 
   </div>
+
+  <script src = "welcomeJS.js"></script>
 
 </body>
 </html>

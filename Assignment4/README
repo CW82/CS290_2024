@@ -1,14 +1,22 @@
+Open "NeatFlix 3.0" first. You'll be able to login using the email and password below (hopefully, it worked for me at least)
+
+NOTE: The log in information is
+
+Email: example@example.com
+Password: 123456789             
+
 1: Input, output, variable (few different datatypes, number, string, boolean, couple of objs), common errors and how to possibly avoid, conditionals, repitition, arrays, functions, demonstrait scope, objects, events
 
 2: To show input and output I want to have some test email/password and when you press 'sign in' it take you to the 'welcome' page
 
 3: For events, I want the 'Need Help' button to run away from the cursor because i think that will be funny and because i haven't done anything for that page lmao
 
-4: Common errors in javascript include not spelling things right, missing a (){}[]; , forgetting 'let' 'var', not making something global and then trying to use it, using the wrong = == ===, etc. How to avoid these? Honestly, what I did was accidently do these errors, get mad because it's not working, look at the console, forget what something means, use Google, then fix it. Ig i could've gone slower/been more careful when i was coding it, but eh
+4: Common errors in javascript include not spelling things right, missing a (){}[]; , forgetting 'let' 'var', not making something global and then trying to use it, using the wrong = == ===, etc. How to avoid these? Honestly, what I did was accidently do these errors, get mad because it's not working, look at the console, forget what something means, use Google, then fix it. Ig i could've gone slower/been more careful when i was coding it, but eh, i like doing things the hard way :)
 
 5: Links I used to get this working(?)
  - https://www.w3schools.com/js/js_htmldom_eventlistener.asp
- - https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage
+ - https://stackoverflow.com/questions/503093
+ how-do-i-redirect-to-another-webpage
  - https://www.w3schools.com/jsref/event_onmouseover.asp
  - https://www.w3schools.com/html/html_favicon.asp
  - https://www.w3schools.com/jsref/met_document_queryselector.asp
@@ -18,3 +26,7 @@
  - 
  - 
  - I used ChatGPT a little bit and I had it explain some of the things from those links in more simple terms (brain smooth X﹏X)
+
+6: I want to eventually make it so when I press the enter key it also acts as pressing the 'sign in' button, but this assignment is already super late so that's an issue I'll take care of later lmao
+
+7: im working on actually making the hamburger menu functional, again, this was super late, so this is on the bottom of my to do this, sorry

@@ -63,6 +63,12 @@ main {
   margin: 10px;
 }
 
+.containers {
+  color: #e4e3e3;
+  font: bold 15px/1.5 Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  margin-top: 10px;
+}
 #section {
   flex: 1;
   margin: 10px;
@@ -71,11 +77,16 @@ main {
   box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
 }
 
-.containers {
-  color: #e4e3e3;
-  font: bold 15px/1.5 Arial, Helvetica, sans-serif;
-  padding-left: 10px;
-  margin-top: 10px;
+#catags {
+  margin: 0px auto 0px auto;
+}
+
+#add {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  width: 40px;
+  height: 20px;
 }
 
   /* .horzscroll {
@@ -96,6 +107,7 @@ main {
   width: 100%;
 } 
 
+/* in progress to make menu actually functional */
   @media screen and (max-width: 600px) {
 
     .navbarstyle a:not(.title) {display: none;}
@@ -113,3 +125,5 @@ main {
     }
 
   }
+
+  /* Top, right, bottom, left, margin shorthand */
