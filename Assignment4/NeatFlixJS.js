@@ -9,7 +9,7 @@ function signingin() {
 	/*if the email and password are the same as the one lsited below, when u hit the
 	button, it'll take u to the homepage*/
 	if (email == "example@example.com" && password == "123456789"){
-        window.location.href = "welcome.html";
+        window.location.href = "welcomeHTML.html";
 	} else { //if what u entered aren;t what's above, u get an alert that says this
 		alert("You entered the email or password WRONG (⊙ˍ⊙)")
 	}

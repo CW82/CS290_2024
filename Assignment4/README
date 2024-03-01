@@ -21,8 +21,8 @@ Password: 123456789
  - https://www.w3schools.com/html/html_favicon.asp
  - https://www.w3schools.com/jsref/met_document_queryselector.asp
  - https://www.w3schools.com/js/js_if_else.asp
- - 
- - 
+ - https://stackoverflow.com/questions/17773938/add-a-list-item-through-javascript (.createlement for making a new list item, turns out push() doesn't work, go figure)
+ - https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_prompt1
  - 
  - 
  - I used ChatGPT a little bit and I had it explain some of the things from those links in more simple terms (brain smooth X﹏X)
@@ -30,3 +30,7 @@ Password: 123456789
 6: I want to eventually make it so when I press the enter key it also acts as pressing the 'sign in' button, but this assignment is already super late so that's an issue I'll take care of later lmao
 
 7: im working on actually making the hamburger menu functional, again, this was super late, so this is on the bottom of my to do this, sorry
+
+8: 'tbw' = to be watched
+
+9: Only the add button on 'watch list' works, just trying to get this turned in, will get others to work later
