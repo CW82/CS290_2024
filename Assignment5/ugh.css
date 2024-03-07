@@ -1,0 +1,103 @@
+/* ID Selectors */
+body {
+  /* No extra spacing around the bgimg */
+  margin: 0; 
+  padding: 0; 
+  background-image: url('Pictures/netflix.webp');
+  /* cover scales img to cover entire container while keeping its aspect raito */
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;
+  /* grow to proportion needed */
+  display: flex;
+}
+
+#bgrectangle {
+  /* dimentions of the background rectangle */
+  width: 350px;
+  height: 500px;
+  /* centers my background rectangle */
+  margin: auto; 
+  background-color: rgba(0, 0, 0, 0.750);
+}
+
+#signin {
+  /* Font Shorthand, font weight, size, style, variant */
+	font: bold 19px/1.5 Arial, Helvetica, sans-serif;
+  /* puts it where i want it, TRBL */
+  padding-top: 5vh; 
+  text-align: center;
+  text-indent: -25vh;
+  margin: 0vh;
+  color: white;
+}
+
+/* general decor for the input boxes (empn and password) */
+#inputs input{
+	width: 275px;
+	height: 35px;
+	border-radius: 5px;
+	border: 2px solid rgb(63, 63, 64);
+	background-color: rgb(63, 63, 64);
+}
+
+#savedlogin {
+  /* margin: 0; */
+  cursor: pointer;
+  position: relative;
+  top: 12vh;
+  left: 5.5vh;
+}
+
+/* styling for the remember me box lable */
+#savedlogin label {
+  font: Arial, Helvetica, sans-serif;;
+  color: white;
+}
+
+/* Class Selectors */
+.empn {
+  position: relative;
+  top: 2vh;
+  left: 6vh;
+}
+
+/* makes text turn white when u click on input box to type things in so u can see */
+.empn:focus {
+  color: white;
+}
+
+.password {
+  position: relative;
+  top: 5vh;
+  left: 6vh;
+}
+
+.password:focus {
+  color: white;
+}
+
+.pressme {
+	width: 285px; 
+	height: 38px; 
+  position: relative;
+  top: 10vh;
+  left: 6vh;
+	border-radius: 5px;
+  color: white;
+	background-color: rgb(198, 22, 22);
+}
+
+.helllp {
+  position: relative;
+  transition: transform 0.2;
+  top: 0vh;
+  right: -16vh;
+  text-decoration: none;
+  color: white;
+}
+
+.helllp:hover {
+  color: rgb(191, 13, 13);
+}
+
