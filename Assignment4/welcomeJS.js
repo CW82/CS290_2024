@@ -1,7 +1,7 @@
 //another func with no prarameter, whoops, will do one with parametrs later
 function addtolist() {
 	//just to make sure it's actually registering the button press
-	console.log("Add button pressed")
+	console.log("Button pressed")
 	//makes a varible called watchlist and it promps the user for input to add to a list
 	var watchlst = prompt("Enter the show/movies to be watched: ");
 	
