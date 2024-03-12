@@ -1,6 +1,10 @@
-1: Super simple basic site to show PHP server side stuff :)
+1: Super simple basic site to show PHP server side stuff :), I sued php bc i couldn't wrap my head around making a server in python??? Like i get it somewhat, but php just made more sense to me so I figured i'd just do that lol
 2: Im not sure why all of the entries are on the same line, but i just want to get this turned in lmao
+3: https://www.w3schools.com/php/php_file_open.asp
+4: https://www.geeksforgeeks.org/php-fopen-function-open-file-or-url/
+5: I used  chatgpt to explain some things to me in simpiler terms lol, but the links above are basically all i used to figure out how to make the php work
+6: https://youtu.be/6HVYX8FRSGA <--- THIS video was sooo good at helping me figure out what I was doing with php, how to set up, a basic tutorial on literally everything, soooo good :))))))
 
-Create a web app that shows some simple server-side scripting, perhaps two buttons or forms where one calls a function on the server that writes something to a file and another that retrieves that text
+- Create a web app that shows some simple server-side scripting, perhaps two buttons or forms where one calls a function on the server that writes something to a file and another that retrieves that text
 
-Go find some plugin, module, or whatever your server-side environment uses to enhance its framework and create a website that shows off that module (perhaps by going through a tutorial for that module?).
+- Go find some plugin, module, or whatever your server-side environment uses to enhance its framework and create a website that shows off that module (perhaps by going through a tutorial for that module?).

@@ -17,7 +17,7 @@
   <img id = "star" src = "Pictures/starshoot.gif" alt = "shootingstargif">
 
   <div id = "contents">
-	<form action = "basic_sitePHP.php" method = "post">
+	<form action = "basic_sitePHP.php" method = "post"> <!--calls the php witha post method -->
 		<label id = "label" for="inputText">Type Something:</label><br>
         <input type = "text" name = "input"><br>
         <button id = "button" type="submit">Submit</button>
@@ -25,15 +25,16 @@
   </div>
   
   <?php
+  //
   if (isset($_POST["input"])) {
-	$userInput = $_POST["input"];
-	$openFile = fopen("diary.txt", "a");
-
+	$userInput = $_POST["input"]; //
+	$openFile = fopen("diary.txt", "a"); //
+    //
 	if ($openFile) {
-		fwrite($openFile, $userInput);
-		fclose($openFile);
+		fwrite($openFile, $userInput); //
+		fclose($openFile); //
 	}
-
+    //just prints out whatever u put in the text box
 	echo ("Your Entry is: $userInput");
   }
   ?>
