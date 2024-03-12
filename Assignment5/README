@@ -1,1 +1,6 @@
 1: Super simple basic site to show PHP server side stuff :)
+2: Im not sure why all of the entries are on the same line, but i just want to get this turned in lmao
+
+Create a web app that shows some simple server-side scripting, perhaps two buttons or forms where one calls a function on the server that writes something to a file and another that retrieves that text
+
+Go find some plugin, module, or whatever your server-side environment uses to enhance its framework and create a website that shows off that module (perhaps by going through a tutorial for that module?).

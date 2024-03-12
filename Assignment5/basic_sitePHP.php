@@ -18,12 +18,26 @@
 
   <div id = "contents">
 	<form action = "basic_sitePHP.php" method = "post">
-		<label id = "label" for="inputText">Enter Text:</label><br>
-        <textarea name="inputText" rows="2" cols="20"></textarea><br>
+		<label id = "label" for="inputText">Type Something:</label><br>
+        <input type = "text" name = "input"><br>
         <button id = "button" type="submit">Submit</button>
 	</form>
   </div>
   
+  <?php
+  if (isset($_POST["input"])) {
+	$userInput = $_POST["input"];
+	$openFile = fopen("diary.txt", "a");
+
+	if ($openFile) {
+		fwrite($openFile, $userInput);
+		fclose($openFile);
+	}
+
+	echo ("Your Entry is: $userInput");
+  }
+  ?>
 
 </body>
 </html>
+
