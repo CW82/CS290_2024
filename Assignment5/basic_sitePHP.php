@@ -17,22 +17,22 @@
   <img id = "star" src = "Pictures/starshoot.gif" alt = "shootingstargif">
 
   <div id = "contents">
-	<form action = "basic_sitePHP.php" method = "post"> <!--calls the php witha post method -->
-		<label id = "label" for="inputText">Type Something:</label><br>
+	<form action = "basic_sitePHP.php" method = "post"> <!--calls the php witha post method, I used the post method because it's more secure and since it's a 'diary' i figureed you don't want what you write to be in the url -->
+		<label id = "label" for="inputText">Ur Diary Entry:</label><br>
         <input type = "text" name = "input"><br>
         <button id = "button" type="submit">Submit</button>
 	</form>
   </div>
   
   <?php
-  //
+  // checks if a diary entry 'text' was entered into the textbox with 'isset'
   if (isset($_POST["input"])) {
-	$userInput = $_POST["input"]; //
-	$openFile = fopen("diary.txt", "a"); //
-    //
+	$userInput = $_POST["input"]; // variable called 'userInput' that is set to the value of whatever the user typed in
+	$openFile = fopen("diary.txt", "a"); //opens the file called 'diary' in appened mode so it deosn't overwrite anything that's already in there
+    //if the file 'diary' is open,
 	if ($openFile) {
-		fwrite($openFile, $userInput); //
-		fclose($openFile); //
+		fwrite($openFile, $userInput); //then write in it whatever the user input was
+		fclose($openFile); //then close it
 	}
     //just prints out whatever u put in the text box
 	echo ("Your Entry is: $userInput");
