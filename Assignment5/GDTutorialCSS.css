@@ -1,0 +1,107 @@
+body { 
+	box-sizing: border-box;
+	margin: 0;
+	height: 100vh;
+	/* overflow: hidden; Hides scrollbar, but has no functionality */ 
+	background-color:rgb(191, 209, 215);
+}
+  
+/* Hidden scrollbar, functional */
+::-webkit-scrollbar {
+    display: none;
+}
+  
+.navbarstyle {
+	/* background color for the nav bar */
+	background-color: rgba(0, 0, 0, 0.696);
+	display: flex; 
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+  
+.navbarstyle a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-decoration: none;
+	/* spacing, left and right */
+	padding: 15px 16px;
+}
+  
+.navbarstyle a:hover {
+	background-color: rgb(105, 148, 202);
+}
+  
+.title {
+	font-weight: bold;
+	font-size: 35px;
+	text-shadow: 5px 4px rgba(0, 0, 0, 0.632);
+	/* lines up the title with the rest of the links since they aren't lined up for some reason without this?? */
+	margin-top: -13px;
+} 
+  
+.navbarstyle .fa {
+	display: none;
+	/* color: white;
+	padding-right: 10px;
+	padding-top: 18px;  */
+}
+  
+  /* .navbarstyle .lookup {
+	float: right;
+  } */
+  
+.navbarstyle input[type="text"] {
+	margin-top: 17px;
+	border-radius: 5px;
+	border: 2px solid rgb(0, 0, 0);
+	background-color: #dbdbdb;
+}
+
+#intro {
+	margin: 0 10px 0 0;
+}
+
+#hdrline {
+	height: 2px;
+	width: 100%;
+	background-color: black;
+}
+
+#intropara {
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+
+#pictures {
+	width: 10px;
+	height: 10px;
+}
+  
+.end p{ 
+	text-align: center;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+} 
+  
+  /* in progress to make menu actually functional */
+	@media screen and (max-width: 600px) {
+  
+	  .navbarstyle a:not(.title) {display: none;}
+  
+	  .navbarstyle .fa {
+		float: right;
+		display: block;
+		color: white;
+		padding-top: 20px;
+	  }
+  
+	  .navbarstyle .fa:hover {
+		cursor: pointer;
+		background-color:rgb(105, 148, 202);
+	  }
+  
+	}
+  
+	/* Top, right, bottom, left, margin shorthand */

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+<head>
+  <title>Graphic Draw PHP</title>
+  <link rel="icon" type="image/x-icon" href="Pictures/heart.webp">
+  <meta charset = "UTF-8">
+  <meta name = "keywords" content = "HTML">
+  <meta name = "author" content = "Crystal Wolf">
+  <meta name = "desc" content = "Assignment 5: Server Side">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+  <link rel = "stylesheet" href = "GDTutorialCSS.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <div class = "navbarstyle" id = "navbar">
+    <nav> 
+      <!-- <input class = "lookup" type = "text" placeholder = "Search"> -->
+
+      <i class = "fa fa-bars fa-lg" id = "hambmenuicon"></i>
+      <i class="fa-solid fa-magnifying-glass"></i>
+
+      <a class = "title" href = "#gdphp">Graphic Draw (PHP)</a>
+      <a href = "#imagecreation">Image Creation</a>
+      <a href = "#imagemanipulation">Image Manipulation</a>
+      <a href = "#imageoutput">Image Output</a>
+      <a href = "#shapestxt">Drawing Shapes and Text</a>
+    </nav>
+  </div>
+
+  <div id = "intro">
+    <article>
+      <h1>Intro</h1>
+      <hr id = "hdrline"></hr>
+      <p id = "intropara">Originally developed by Thomas Boutell, Graphics Draw is an open sourced PHP library that can be used to create and manipulate images
+      dynamically in PHP. You can create images in many different formats including PNG, JPEG, GIF,
+      XPM, and WBMP. GD has functions that allows for the user to create images from scratch,
+      draw things directly on an image, and manipulate images. There are many uses for the GD library including image generation, 
+      text rendering, CAPTCHA generation, data visualization, etc.
+      </p>
+    </article>
+    <article>
+      <h1>Requirments and Set Up</h1>
+      <hr id = "hdrline"></hr>
+      <h3>Requirments:</h3>
+      <ol>
+        <li>You must have PHP with the GD extenstion installed. To check this, create a php file with "phpinfo()" and seach for GD in the output. If you don't
+          have it installed, I'd suggest Googling it because Google can explain it way better than I can. 
+        </li>
+        <li>Make sure you have the specific libraries for the image formats you want to use installed. GD has different libraries for different formats which
+          are usually installed by default, but if you are using a specific format, you may need to install the right library for that which you can find on Google.
+        </li>
+      </ol>
+      <h3>Set Up:</h3>
+      <ol>
+        <li>Enable the GD extension. Find the "php.ini" config file and find ";extension=gd" line. Uncomments it if it's commented out. Restart the web server for
+          the changes to appear. 
+        </li>
+        <li>To check if it's working, run this code in a new php file.</li>
+      </ol>
+    </article>
+  </div>
+
+  <footer class = "end">
+    <p>Crystal Wolf 2024 CS290 LBCC</p>
+  </footer>
+
+  </div>
+
+  <script src = "welcomeJS.js"></script>
+
+</body>
+</html>
