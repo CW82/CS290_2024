@@ -1,5 +1,8 @@
-var contain = document.querySelectorAll(".collaps");
+document.addEventListener("click")
 
+
+
+var contain = document.querySelectorAll(".collaps");
 contain.forEach(function(btn)) {
 }
 
