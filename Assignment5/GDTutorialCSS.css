@@ -72,15 +72,36 @@ body {
 	margin-bottom: 30px;
 }
 
-#pictures {
-	width: 10px;
-	height: 10px;
+
+#catags {
+	/* width: 50%; */
+	margin: 0 auto; 
+	text-align: center;
+	/* padding: 20px; */
+}
+
+#content {
+	display: none;
+	overflow: hidden;
+	background-color: rgb(207, 236, 245);
+}
+
+.collaps {
+	width: 155px;  
+	box-shadow: 0px 5px 0px black;
+	border-radius: 35px;
+	color: white;
+	background-color: rgb(254, 149, 236);
+}
+
+.collaps:hover {
+	background-color: rgb(250, 191, 241);
 }
   
 .end p{ 
 	text-align: center;
 	color: white;
-	position: absolute;
+	/* position: absolute; */
 	bottom: 0;
 	width: 100%;
 } 
