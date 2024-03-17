@@ -57,22 +57,30 @@ body {
 	background-color: #dbdbdb;
 }
 
+/* spacing for the intro header */
 #intro {
-	margin: 0 10px 0 0;
+	margin: 0 10px 0 10px;
 }
 
-#hdrline {
+/* style for the header lines */
+.hdrline {
 	height: 2px;
 	width: 100%;
 	background-color: black;
 }
 
+/* spacing for the intro and resources text */
 #intropara {
 	margin-left: 10px;
 	margin-bottom: 30px;
 }
 
+#resources {
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
 
+/* buttons styling */
 #catags {
 	/* width: 50%; */
 	margin: 0 auto; 
@@ -80,6 +88,7 @@ body {
 	/* padding: 20px; */
 }
 
+/* styling for the content inside the buttons, sets the display to 'none' but when button is clicked, sets display to 'block' */
 #content {
 	display: none;
 	overflow: hidden;

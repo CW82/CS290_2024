@@ -13,6 +13,7 @@
 </head>
 <body>
 
+  <!-- taken from a different project, I was going to have the dropdowns come from the top, but changed my mind -->
   <div class = "navbarstyle" id = "navbar">
     <nav> 
       <!-- <input class = "lookup" type = "text" placeholder = "Search"> -->
@@ -28,10 +29,11 @@
     </nav>
   </div>
 
+  <!-- intro stuff for gd php -->
   <div id = "intro">
     <article>
       <h1>Intro</h1>
-      <hr id = "hdrline"></hr>
+      <hr class = "hdrline"></hr>
       <p id = "intropara">Originally developed by Thomas Boutell, Graphics Draw is an open sourced PHP library that can be used to create and manipulate images
       dynamically in PHP. You can create images in many different formats including PNG, JPEG, GIF,
       XPM, and WBMP. GD has functions that allows for the user to create images from scratch,
@@ -41,7 +43,7 @@
     </article>
     <article>
       <h1>Requirments and Set Up</h1>
-      <hr id = "hdrline"></hr>
+      <hr class = "hdrline"></hr>
       <h3>Requirments:</h3>
       <ol>
         <li>You must have PHP with the GD extenstion installed. To check this, create a php file with "phpinfo()" and seach for GD in the output. If you don't
@@ -61,36 +63,58 @@
     </article>
   </div>
 
+  <!-- the drop down buttons w more info  -->
   <div id = "catags">
-    <h3>Click Below for More</h3>
+    <h3>Click Below for More Info!</h3>
 
     <button type = "button" class = "collaps">Image Creation</button>
     <div id = "content">
-      <p>HI</p>
+      <p>"imagecreate()" is a function in PHP's GD library. You can use this function to create an image with specific dimensions.
+        You can also change the colors on an image, draw shapes, or add text using this function (see examples below)<br>
+        <br><strong>imagecreate(w,h):</strong> Used to make a new image with specified width and height
+        <br><strong>imagecollorallocate($image (rgb)):</strong> Used to set the colors for your image/drawing
+        <br><strong>imagettftext():</strong> Used to add text to an image. Must include font file, size, angle, position, and text string
+      </p>
     </div>
 
     <button type = "button" class = "collaps">Image Manipulation</button>
     <div id = "content">
-      <p>HI</p>
+      <p>To use image manipulation in PHP using GD, you have to load an existing image, apply the modifications you want, and then
+         save/display the modified image. Some things you can do to manipulate your images are resizing, adding text, adding shapes,
+         and filters (see examples below)<br>
+         <br><strong>imagecopyresampled():</strong> Used to resize an image and also keeps its aspect ratio. Source image, destination image, and the new dimensions are the parameters.
+         <br><strong>imagefilledrectangle():</strong> Used to draw different shapes on an image. Note: there are different functions for different shapes
+         <br><strong>imagefilter():</strong> Used to apply different filters on an image. Some examples are contrast, blur, brightness, grayscale, etc. 
+      </p>
     </div>
 
     <button type = "button" class = "collaps">Image Output</button>
     <div id = "content">
-      <p>HI</p>
+      <p>The 3 most commonly used image outputs are 'imagejpeg()', 'imagepng()', and 'imagegif()'. These functions are used to send
+        send an image's data to a browser or to save it to a file. (see examples below)<br>
+        <br><strong>imagejpeg($image, $filename, $quality):</strong>Note: There are optional parameters not listed here. This function
+        outputs a jpeg image with the GD image resource, an optional filename and quality parameters. 
+      </p>
     </div>
 
-    <button type = "button" class = "collaps">Drawing Shapes/Text</button>
-    <div id = "content">
-      <p>HI</p>
-    </div>
+  </div>
+
+  <!-- extra resources for thingns I didn't explain -->
+  <div id = "xtra">
+    <article>
+      <h1>More Resources</h1>
+      <hr class = "hdrline"></hr>
+      <p id = "resources"> <a href = "https://www.php.net/manual/en/book.image.php">PHP.net</a><br>
+        <a href = "https://www.w3schools.com/graphics/">W3 Schools</a>
+      </p>
+    </article>
   </div>
 
   <footer class = "end">
     <p>Crystal Wolf 2024 CS290 LBCC</p>
   </footer>
-
-  </div>
-
+  
+  <!-- my js stuff -->
   <script src = "GDTutorialJS.js"></script>
 
 </body>
