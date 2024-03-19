@@ -1,0 +1,21 @@
+.navBarStyle {
+  background-color: green;
+  display: flex;
+  
+}
+
+.logo {
+  display: flex;
+  width: 90px; height: 75px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  margin: 10px;
+}
+
+
