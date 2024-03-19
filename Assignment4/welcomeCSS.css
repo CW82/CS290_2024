@@ -1,7 +1,7 @@
 body { 
   box-sizing: border-box;
-  margin: 0;
-  height: 100vh;
+  /* margin: 0;
+  height: 100vh; */
   /* overflow: hidden; Hides scrollbar, but has no functionality */ 
   /* Ombre background */
   background-image: linear-gradient(rgb(49, 34, 68), rgb(62, 31, 71), rgb(77, 25, 77));

@@ -1,21 +1,108 @@
-.navBarStyle {
-  background-color: green;
-  display: flex;
-  
+/* overall, everything */
+body {
+  width: 100%; /*makes the header background color stretch across the whole top (all three)*/
+  margin: 0;
+  padding: 0;
 }
-
-.logo {
+/* idden scrollbar, i just like it better this way */
+::-webkit-scrollbar {
+  display: none;
+}
+/* overall, navbar */
+.navBarStyle {
+  justify-content: space-between;
+  font: bold 15px/1.5 Arial, Helvetica, sans-serif;
+  background-color: rgb(107, 173, 68);
   display: flex;
-  width: 90px; height: 75px;
+  padding: 10px; /**/
 }
 
 nav {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdownLinks {
+  display: none;
+  position: absolute;
+  background-color: rgb(225, 226, 224);
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownLinks a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdownLinks {
+  display: block;
+}
+
+/* specifically logo */
+.logo {
+  display: flex;
+  width: 90px; height: 75px;
+}
+/* specifically links */
 nav a {
-  margin: 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+}
+
+#direct {
+  color: rgb(255, 255, 255);
+  font: bold 12px/1.5 Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+}
+
+#direct #address{
+  white-space: normal;
+  text-decoration: none;
+  color: white;
+}
+
+#direct #address:hover{
+  text-decoration: underline;
+}
+
+#content {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#opener {
+  text-align: left;
+  padding-left: 10px;
+  width: 350px; 
+  background-color: rgba(82, 200, 27, 0.253);
+}
+
+#imgCaro {
+  background-color:rgba(106, 173, 68, 0.235);
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+figure {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+  justify-content: center; /* Center the items horizontally */
+}
+
+.honored {
+  text-decoration: none;
 }
 
 
