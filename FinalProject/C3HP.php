@@ -12,42 +12,7 @@
 </head>
 <body>
 
-  <div class = "navBarStyle" id = "navBar">
-    <nav> 
-      <a class = "logo" href = "C3HP.html">
-        <img src = "Pictures/logo.png">
-      </a>
-
-      <div class="dropdown">
-        <a href="#info">Info ▽</a>
-        <div class="dropdownLinks">
-          <a href="aboutus.html">About Us</a>
-          <a href="#">Guest Info</a>
-          <a href="#">Vendors</a>
-        </div>
-      </div>
-
-      <div class="dropdown">
-        <a href = "#attend">Attend ▽</a>
-        <div class="dropdownLinks">
-          <a href="#">Register Here</a>
-        </div>
-      </div>
-      
-      <div class="dropdown">
-        <a href = "#getInvolved">Get Involved ▽</a>
-        <div class="dropdownLinks">
-          <a href="#">Volunteer!</a>
-		  <a href="#">Contacts</a>
-        </div>
-      </div>
-    </nav>
-    
-    <div id = "direct">
-      <p>Feb 16-17</p>
-      <a id = "address" href = "https://www.google.com/maps/dir//corvallis+community+center/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x54c040a27b70b935:0x59be7ee7a29094b5?sa=X&ved=1t:3061&ictx=111">Corvallis Community Center, Corvallis OR</a>
-    </div>
-  </div>
+  <?php include "header.php";?>
 
   <!--thankyous -->
   <div id = "content">
@@ -64,6 +29,28 @@
       <img src = "Pictures/caro4.jpg_large" alt = "picture4" width = "375" height = "250">
       <img src = "Pictures/caro5.webp" alt = "picture5" width = "375" height = "250">
       <img src = "Pictures/caro6.webp" alt = "picture6" width = "375" height = "250">
+    </div>
+
+    <div id = "hours">
+      <h1>Hours</h1>
+      <table>
+        <tr>
+          <th colspan = "2">Gaming/Con</th>
+          <th>Vendor Hall</th>
+        </tr>
+        <tr>
+          <td>Friday, Feb 16</td>
+          <td>1pm-11pm</td>
+          <td>1pm-8pm</td>
+        </tr>
+        <tr>
+          <td>Saturday, Feb 17</td>
+          <td>10am-11pm</td>
+          <td>10am-8pm</td>
+        </tr>
+      </table>
+      <br>
+      <a id = "schedual" href = "http://archives.corvallisoregon.gov/internal/ElectronicFile.aspx?dbid=0&docid=4056864">See the Full Game Schedual Here</a>
     </div>
 
     <!-- guest links -->
@@ -85,13 +72,13 @@
         <img src = "Pictures/playtest.PNG" alt = "tylerW" width = "175" height = "175">
       </a>
     </div>
-
-
-
   </div>
 
+  <br>
+
   <footer>
-    <p></p>
+    <img src = "Pictures/knitelogo.png" alt = "knitelogo" width = "200" height = "200"> 
+    <a href = "#navBar" id = "upupup">Back to the Top</a>
   </footer>
 
 </body>
