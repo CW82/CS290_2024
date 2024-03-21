@@ -56,7 +56,7 @@
     <!-- guest links -->
     <div id = "guests">
       <h1>Check Out Our Featured 2024 Guests!</h1>
-      <a class = "honored" href = "honored">
+      <a class = "honored" href = "guestinfo.php">
         <img src = "Pictures/tylerw.PNG" alt = "tylerW" width = "175" height = "175">
       </a>
       <a class = "honored" href = "honored">
