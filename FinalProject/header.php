@@ -32,15 +32,15 @@
         <a href = "#attend">Attend ▽</a>
         <div class="dropdownLinks">
           <a href="register.php">Register Here</a>
-          <a href="#">Events</a>
+          <a href="events.php">Events</a>
         </div>
       </div>
 
       <div class="dropdown">
         <a href = "#getInvolved">Get Involved ▽</a>
         <div class="dropdownLinks">
-          <a href="#">Volunteer!</a>
-		  <a href="#">Contacts</a>
+          <a href="volunteer.php">Volunteer!</a>
+		  <a href="contacts.php">Contacts</a>
         </div>
       </div>
     </nav>
