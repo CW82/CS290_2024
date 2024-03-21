@@ -31,7 +31,7 @@
       <div class="dropdown">
         <a href = "#attend">Attend ▽</a>
         <div class="dropdownLinks">
-          <a href="#">Register Here</a>
+          <a href="register.php">Register Here</a>
           <a href="#">Events</a>
         </div>
       </div>

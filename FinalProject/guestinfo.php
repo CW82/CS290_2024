@@ -43,7 +43,7 @@
      <p>Check out Buck on social media below ▽</p>
      <a class = "honored" href = "https://www.instagram.com/the.mandalordian/"><img src = "Pictures/iglogo.webp" alt = "Instagram Logo" width = "75" height = "75"></a>
     <hr>
-    <h1>Vedris Oberyn</h1>
+    <h1>Vedris Oberyn (Not Pictured on Homescreen)</h1>
     <p class = "guestInfo">Vedis Oberyn, an academic specialized in sociocultural anthropology and Jewish studies, uniquely 
       blends their love for fantasy and tabletop gaming with cultural insights. As an artist and writer, 
       Vedis excels in creating engaging game narratives that reflect diverse real-world perspectives. 
@@ -54,7 +54,7 @@
     <p>Check out Vedis on social media below ▽</p>
      <a class = "honored" href = "https://www.instagram.com/highkicksfrick/"><img src = "Pictures/iglogo.webp" alt = "Instagram Logo" width = "75" height = "75"></a>
     <hr>
-    <h1>Playtest Corvallis</h1>
+    <h1>Playtest Corvallis (Not Pictured on Homescreen)</h1>
     <p class = "guestInfo">Playtest Corvallis, a group of local game developers from Corvallis, excels in creating innovative
       board games, TTRPGs, and card games through community collaboration. Known for their engaging titles
       like "Kitten Klash," "Tapestry: Fantasies & Futures," and "Monster Girl High School," they embody 
