@@ -57,5 +57,3 @@
 
 </body>
 </html>
-Cosplay Contest, brought to you by Common Fields Corvallis!
-Please note the updated times of the contest below

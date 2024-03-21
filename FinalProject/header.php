@@ -20,6 +20,9 @@
       </a>
 
       <div class="dropdown">
+
+        <i class = "fa fa-bars fa-lg" id = "hambmenuicon"></i>
+
         <a href="#info">Info ▽</a>
         <div class="dropdownLinks">
           <a href="aboutus.php">About Us</a>
@@ -40,7 +43,8 @@
         <a href = "#getInvolved">Get Involved ▽</a>
         <div class="dropdownLinks">
           <a href="volunteer.php">Volunteer!</a>
-		  <a href="contacts.php">Contacts</a>
+		      <a href="contacts.php">Contacts</a>
+          <a href="guestrequest.php">Guest Request Form</a>
         </div>
       </div>
     </nav>
