@@ -15,8 +15,8 @@
   <?php include "header.php";?>
 
   <!--thankyous -->
-  <div id = "content">
-    <div id = "thanks">
+  <div class = "content">
+    <div class = "thanks">
       <h2>Thank you for an amazing GameCon 2024!<br></h2>
       <p>♡ Stay tuned for next year's event, or check out what we had planned for 2024! ♡</p>
     </div>
@@ -57,29 +57,26 @@
     <div id = "guests">
       <h1>Check Out Our Featured 2024 Guests!</h1>
       <a class = "honored" href = "guestinfo.php">
-        <img src = "Pictures/tylerw.PNG" alt = "tylerW" width = "175" height = "175">
+        <img src = "Pictures/tylerw.PNG" alt = "Tyler Welch" width = "175" height = "175">
       </a>
-      <a class = "honored" href = "honored">
-        <img src = "Pictures/michelleN.PNG" alt = "tylerW" width = "175" height = "175">
+      <a class = "honored" href = "guestinfo.php">
+        <img src = "Pictures/michelleN.PNG" alt = "Michelle Nguyen" width = "175" height = "175">
       </a>
-      <a class = "honored" href = "honored">
-        <img src = "Pictures/buckP.PNG" alt = "tylerW" width = "175" height = "175">
+      <a class = "honored" href = "guestinfo.php">
+        <img src = "Pictures/buckP.PNG" alt = "Buck Potter" width = "175" height = "175">
       </a>
-      <a class = "honored" href = "honored">
-        <img src = "Pictures/vedisO.PNG" alt = "tylerW" width = "175" height = "175">
+      <a class = "honored" href = "guestinfo.php">
+        <img src = "Pictures/vedisO.PNG" alt = "Vedis Oberyn" width = "175" height = "175">
       </a>
-      <a class = "honored" href = "honored">
-        <img src = "Pictures/playtest.PNG" alt = "tylerW" width = "175" height = "175">
+      <a class = "honored" href = "guestinfo.php">
+        <img src = "Pictures/playtest.PNG" alt = "Playtest Corvallis" width = "175" height = "175">
       </a>
     </div>
   </div>
 
   <br>
 
-  <footer>
-    <img src = "Pictures/knitelogo.png" alt = "knitelogo" width = "200" height = "200"> 
-    <a href = "#navBar" id = "upupup">Back to the Top</a>
-  </footer>
+  <?php include "footer.php";?>
 
 </body>
 </html>

@@ -24,7 +24,7 @@
         <div class="dropdownLinks">
           <a href="aboutus.php">About Us</a>
           <a href="guestinfo.php">Guest Info</a>
-          <a href="#">Vendors</a>
+          <a href="vendors.php">Vendors</a>
         </div>
       </div>
 

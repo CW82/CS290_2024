@@ -84,7 +84,7 @@ nav a {
   text-decoration: underline;
 }
 
-#content {
+.content {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -163,3 +163,16 @@ footer img {
   font: normal 15px/1.5 Arial, Helvetica, sans-serif;
 }
 
+#guest {
+  margin: 10px;
+}
+
+.guestInfo {
+  font: normal 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+.vendors {
+  margin: 10px;
+  text-align: left;
+  font: normal 15px/1.5 Arial, Helvetica, sans-serif;
+}
