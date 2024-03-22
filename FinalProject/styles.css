@@ -186,4 +186,17 @@ footer img {
   height: 140px;
   margin: auto;
   background-color: rgba(105, 173, 4, 0.386);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#formbg {
+  width: 500px;
+  height: 215px;
+  margin: auto;
+  background-color: rgba(105, 173, 4, 0.386);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
