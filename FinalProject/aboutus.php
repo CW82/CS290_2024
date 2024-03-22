@@ -12,10 +12,11 @@
 </head>
 <body>
 
+  <!-- header for page -->
   <?php include "header.php";?>
 
   <div id = "abtus">
-    <h1>About C3 GameCon</h>
+    <h1>About C3 GameCon</h> 
     <p class = "learnmore">C3 Game Con is the premier Tabletop RPG Gaming Convention in the Mid-Valley, with two days
        of live game play, food trucks, fandom-based vendors, cosplay contests, celebrity guest panels, and more. C3 GameCon
        supports local artists, game creators, and other micro businesses by offering free vendor space to ensure equity and inclusion.

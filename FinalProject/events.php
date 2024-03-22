@@ -14,6 +14,7 @@
 
   <?php include "header.php";?>
 
+  <!-- bunch of unordered list for the event, rules, eligibiltiy, gernal info -->
   <div class = "content">
 	<h1>★Featured Events★</h1>
 	<hr>

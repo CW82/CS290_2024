@@ -16,13 +16,13 @@
 
   <!-- they dont have a registration link as of rn -->
   <div class = "content">
-	<div class = "vendors">
-    <h3>Contact Us Below</h3>
-	<ul>
-	  <!-- this was the only contact i could find  :'( -->
-	  <li>zoe.chapman@corvallisoregon.gov</li>
-	  <li>More tba...</li>
-	</ul>
+	  <div class = "vendors">
+      <h3>Contact Us Below</h3>
+	    <ul>
+	      <!-- this was the only contact i could find  :'( -->
+	      <li>zoe.chapman@corvallisoregon.gov</li>
+	      <li>More tba...</li>
+	    </ul>
     </div>
   </div>
   <br>

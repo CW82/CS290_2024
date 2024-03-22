@@ -1,10 +1,10 @@
-var countdown = new Date ("Feb 16, 2025 8:00:00").getTime();
+var countdown = new Date ("Feb 16, 2025 8:00:00").getTime(); //var called countdown set to next years con time, milliseconds
 
 const x = setInterval(function() {
 
   const now = new Date().getTime();
   
-  const distance = countdown - now;
+  const distance = countdown - now; //calcuates time betwen set date and now
   
   const d = Math.floor(distance / (1000 * 60 * 60 * 24));
   const h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));

@@ -13,8 +13,10 @@
 <body>
 
   <footer>
+    <!-- picture i cut out from their banner, kinda sloppy on me tbh -->
     <img src = "Pictures/knitelogo.png" alt = "knitelogo" width = "200" height = "200"> 
-    <a href = "#navBar" id = "upupup">Back to the Top</a>
+    <!-- sends users back to top of page by having the link be set to the id that's at the top of the page -->
+    <a href = "#navBar" id = "upupup">Back to the Top</a> 
   </footer>
 
 </body>

@@ -14,6 +14,7 @@
 
   <?php include "header.php";?>
 
+  <!-- just lots of headers and paragrpahs with info on the guests, also a picture of instagram logo that links to the guests instagram, I was too lazy to find their other socials, but may go back and do that lter -->
   <div id = "guest">
     <h1>Tyler Welch</h1>
     <p class = "guestInfo">Tyler Welch is an author, fitness coach, and miniature painting enthusiast. He is the

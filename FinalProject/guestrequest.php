@@ -14,6 +14,7 @@
 
   <?php include "header.php";?>
 
+  <!--  -->
   <div style = "text-align: center;" class = "contents">
 	<h1>Guests Requests </h1>
 	<div id = "guestrect">

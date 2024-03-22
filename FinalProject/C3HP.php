@@ -19,7 +19,8 @@
     <div class = "thanks">
       <h2>Thank you for an amazing GameCon 2024!<br></h2>
       <p>♡ Stay tuned for next year's event, or check out what we had planned for 2024! ♡</p>
-      <div id = "countdown"><script src = "C3JS.js"></script></div>
+      <!-- countdown timer for next year -->
+      <div id = "countdown"><script src = "C3JS.js"></script></div> 
     </div>
 
     <!-- image caroseul -->
@@ -32,6 +33,7 @@
       <img src = "Pictures/caro6.webp" alt = "picture6" width = "375" height = "250">
     </div>
 
+    <!-- con hours table, inspo from the one on the site the con already has -->
     <div id = "hours">
       <h1>Hours</h1>
       <table>

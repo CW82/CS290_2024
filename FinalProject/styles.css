@@ -18,17 +18,20 @@ body {
   padding: 10px; /**/
 }
 
+/* makes nav flexcontainer and allsigns item */
 nav {
   display: flex;
   align-items: center;
   width: 100%;
 }
 
+/* dropdown styles */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
+/* styles for dorpdown links */
 .dropdownLinks {
   display: none;
   position: absolute;

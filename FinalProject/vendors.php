@@ -14,6 +14,8 @@
 
   <?php include "header.php";?>
 
+  <!-- just a list of vendors that were there -->
+  <!-- started using class so the headers/text at top of page can all have the same style, I still need to fix the messiness of my css -->
   <div class = "content">
 	<h1>✧A Big Thank You to Our 2024 Vendors!✧</h1>
 	<h2>Vendor Hall and Food Trucks</h2>

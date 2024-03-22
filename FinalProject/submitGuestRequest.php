@@ -17,8 +17,9 @@
 	// $errors = [];
 	// $errorMessage = "";
 	
+	//was form submited using post? if yes that do this
 	if ($_SERVER["REQUEST_METHOD"] == "POST") {
-		$name = $_POST["name"];
+		$name = $_POST["name"]; //gets valud of the field with the same name so in this case 'name' sames goes for label below
 		$comments = $_POST["comments"];
 	
 		// if (empty($name)) {
@@ -31,10 +32,11 @@
 		// }
 
 		$to = "crystalwolf601@gmail.com";//i just used mine since i don't want to send the people running the thing random emails lol
-		$subject = "Guest Request";
-		$body = "Name: $name\nComments: $comments";
+		$subject = "Guest Request"; //subject line
+		$body = "Name: $name\nComments: $comments"; //body that has whatever the forms ubmsiter put
 		mail($to, $subject, $body);
 
+		//tells uers if message was sent or ot
 		echo "Your guest request has been sent. Thank you!";
 	} else {
 		echo "Something went wrong, please try again!";

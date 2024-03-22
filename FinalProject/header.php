@@ -20,7 +20,7 @@
         <img src = "Pictures/logo.png">
       </a>
 
-      <div class="dropdown">
+      <div class = "dropdown">
 
         <i class = "fa fa-bars fa-lg" id = "hambmenuicon"></i>
 
