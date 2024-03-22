@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang = "en">
 <head>
+  <!-- Do i need to include this on every page since i have a header linked on every page? ust wodnering -->
   <title>C3 GameCon</title>
   <link rel="icon" type="image/x-icon" href="Pictures/c3icon.png">
   <meta charset = "UTF-8">
@@ -25,8 +26,8 @@
 
         <a href="#info">Info ▽</a>
         <div class="dropdownLinks">
-          <a href="aboutus.php">About Us</a>
-          <a href="guestinfo.php">Guest Info</a>
+          <a href="aboutUs.php">About Us</a>
+          <a href="guestInfo.php">Guest Info</a>
           <a href="vendors.php">Vendors</a>
         </div>
       </div>
@@ -44,7 +45,7 @@
         <div class="dropdownLinks">
           <a href="volunteer.php">Volunteer!</a>
 		      <a href="contacts.php">Contacts</a>
-          <a href="guestrequest.php">Guest Request Form</a>
+          <a href="guestRequest.php">Guest Request Form</a>
         </div>
       </div>
     </nav>

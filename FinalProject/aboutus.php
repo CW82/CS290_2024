@@ -28,6 +28,9 @@
        volunteer Game Masters. Past guests at C3 include Michele Ngyuen of Critcal Roll, Buck Potter, and Playtest Corvallis!
     </p>
   </div>
+  <br>
+  <br>
+  <!-- pacing for the footer  -->
 
   <?php include "footer.php";?>
 

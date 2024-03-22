@@ -14,6 +14,24 @@
 
   <?php include "header.php";?>
 
+  <div style = "text-align: center;" class = "contents">
+	<h1>Guests Requests </h1>
+	<div id = "guestrect">
+	  <p>Is there an artist, writer, actor, or creator you'd love to see at
+	   our convention? Use the form below to request your favorite creator to join us!
+	   We want to hear from you and your requests help us do just that. Submit your 
+	   suggestions today and help make our convention even more fantastic!
+	  </p>
+	</div>
+
+	<br>
+
+	<div id = "formbg">
+	  <form action = "submitGuestRequest.php" method = "post">
+	    <label for = "name"></label>
+	</div>
+
+  </div>
 
   <?php include "footer.php";?>
 

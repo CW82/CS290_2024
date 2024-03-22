@@ -181,4 +181,9 @@ footer img {
   font: normal 15px/1.5 Arial, Helvetica, sans-serif;
 }
 
-
+#guestrect {
+  width: 500px;
+  height: 140px;
+  margin: auto;
+  background-color: rgba(105, 173, 4, 0.386);
+}
