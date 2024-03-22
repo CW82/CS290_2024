@@ -19,6 +19,7 @@
     <div class = "thanks">
       <h2>Thank you for an amazing GameCon 2024!<br></h2>
       <p>♡ Stay tuned for next year's event, or check out what we had planned for 2024! ♡</p>
+      <div id = "countdown"><script src = "C3JS.js"></script></div>
     </div>
 
     <!-- image caroseul -->
